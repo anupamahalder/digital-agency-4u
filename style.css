@@ -44,6 +44,7 @@
 .btn{
     padding: 12px 20px;
     border: 0;
+    margin-bottom: 10px;
 }
 .btn:hover{
     cursor: pointer;
@@ -52,4 +53,76 @@
 .bg-primary{
     background-color: red;
     color: white;
+}
+.service-container{
+    padding: 50px;
+    height: 90vh;
+    background-image: url(./image/footer-bg.png),linear-gradient(rgba(5, 5, 5, 0.939),rgba(13, 12, 12, 0.905));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.icon{
+    width: 70px;
+}
+.box{
+    padding: 50px;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+}
+.service-desc{
+    width: 50%;
+}
+.first-2box,.last-2box{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.author-container{
+    padding-top: 20px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-right: 2px solid red;
+    padding-right: 10px;
+}
+.phone-call{
+    display: flex;
+    gap: 20px;
+}
+.apointment-container{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(241, 45, 45);
+    border-radius: 10px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+.blog-container{
+    text-align: center;
+}
+.blog-title{
+    color: black;
 }
